@@ -25,7 +25,8 @@ public class BaseTest extends WebTestBase {
     @AfterMethod
     public void TearDown()
     {
-     //g driver.close();
+     driver.close();
         System.out.println("This is NewBranch");
     }
 }
+
